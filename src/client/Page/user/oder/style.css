@@ -1,0 +1,27 @@
+table,
+th,
+td {
+  /* border: 1px solid black;
+  border-collapse: collapse; */
+  align-items: center;
+  text-align: center;
+}
+table {
+  width: 100%;
+}
+.pagination {
+  margin-top: 10px;
+  float: right;
+  display: flex;
+  list-style: none;
+}
+button {
+  background-color: white;
+  border: none;
+}
+li {
+  margin-left: 5px;
+}
+span > img > svg {
+  margin-left: 0px;
+}

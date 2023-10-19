@@ -1,0 +1,8 @@
+.root {
+  padding: 5px;
+  border-top: 1px solid grey;
+  width: "250px";
+}
+.range {
+  display: flex;
+}

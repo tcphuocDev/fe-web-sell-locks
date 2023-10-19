@@ -1,0 +1,14 @@
+.star-comment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-star {
+  display: none;
+}
+.star {
+  height: 30px;
+  cursor: pointer;
+  transition: color 300ms;
+  margin-right: -65px;
+}

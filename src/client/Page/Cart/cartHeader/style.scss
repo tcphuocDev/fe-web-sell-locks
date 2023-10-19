@@ -1,0 +1,32 @@
+.cart__left__header {
+  position: absolute;
+  top: -5px;
+  left: 27px;
+  background-color: #01adab;
+  padding: 0 50px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -5px;
+    border-top: 5px solid transparent;
+    border-right: 5px solid #016b68;
+  }
+  p {
+    font-size: 14px;
+    &:nth-child(1) {
+      font-weight: 500;
+      color: #01adab;
+    }
+    &:nth-child(2) {
+      color: #ea4036;
+    }
+  }
+}

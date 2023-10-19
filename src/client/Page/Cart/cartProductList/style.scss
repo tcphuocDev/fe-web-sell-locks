@@ -1,0 +1,21 @@
+.cart__left__product {
+  & > p {
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    span {
+      &:nth-child(1) {
+        flex: 2;
+        padding-left: 25px;
+      }
+      &:nth-child(2) {
+        flex: 1;
+      }
+      &:nth-child(3) {
+        margin-right: 50px;
+      }
+    }
+  }
+}
